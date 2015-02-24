@@ -1,11 +1,12 @@
 {
-  "name": "gfazioli/amiga-guru-meditation",
+  "name": "gfazioli/react-amiga-guru-meditation",
   "version": "1.0.0",
-  "homepage": "https://github.com/gfazioli/Amiga-Guru-Meditation",
+  "homepage": "https://github.com/gfazioli/react-amiga-guru-meditation",
   "license": "MIT",
   "type": "library",
-  "description": "Javascript Class to display a Amiga Guru Meditation Tribute",
+  "description": "React JS Class to display a Amiga Guru Meditation Tribute",
   "keywords": [
+    "react",
     "amiga",
     "guru",
     "meditation",
@@ -13,14 +14,14 @@
   ],
   "authors": [
     {
-    "name": "Giovambattista Fazioli",
-    "email": "g.fazioli@wpxtre.me",
-    "homepage" : "http://undolog.com"
-    }    
+      "name": "Giovambattista Fazioli",
+      "email": "g.fazioli@wpxtre.me",
+      "homepage": "http://undolog.com"
+    }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/gfazioli/Amiga-Guru-Meditation"
+    "url": "https://github.com/gfazioli/react-amiga-guru-meditation"
   },
   "support": {
     "email": "g.fazioli@wpxtre.me"
@@ -28,8 +29,8 @@
   "minimum-stability": "stable",
   "autoload": {
     "psr-0": {
-    "Amiga-Guru-Meditation": "src/"
+      "react-amiga-guru-meditation": "src/"
     }
   },
-  "prefer-stable" : true
+  "prefer-stable": true
 }

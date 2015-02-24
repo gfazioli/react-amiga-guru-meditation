@@ -1,16 +1,17 @@
 {
-  "name": "amiga-guru-meditation",
+  "name": "react.amiga-guru-meditation",
   "version": "1.0.0",
-  "description": "Javascript Class to display a Amiga Guru Meditation Tribute",
+  "description": "React JS Class to display a Amiga Guru Meditation Tribute",
   "main": "guru-meditation.js",
   "scripts": {
     "test": "none"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gfazioli/Amiga-Guru-Meditation.git"
+    "url": "https://github.com/gfazioli/react-amiga-guru-meditation"
   },
   "keywords": [
+    "React",
     "Amiga",
     "Guru",
     "Meditation",
@@ -19,7 +20,7 @@
   "author": "gfazioli",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gfazioli/Amiga-Guru-Meditation/issues"
+    "url": "https://github.com/gfazioli/react-amiga-guru-meditation/issues"
   },
-  "homepage": "https://github.com/gfazioli/Amiga-Guru-Meditation"
+  "homepage": "https://github.com/gfazioli/react-amiga-guru-meditation"
 }

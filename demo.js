@@ -1,5 +1,5 @@
 /**
- * Demo Switch Button control.
+ * Demo Amiga Guru Meditation
  *
  */
 
