@@ -1,0 +1,35 @@
+{
+  "name": "gfazioli/amiga-guru-meditation",
+  "version": "1.0.0",
+  "homepage": "https://github.com/gfazioli/Amiga-Guru-Meditation",
+  "license": "MIT",
+  "type": "library",
+  "description": "Javascript Class to display a Amiga Guru Meditation Tribute",
+  "keywords": [
+    "amiga",
+    "guru",
+    "meditation",
+    "javascript"
+  ],
+  "authors": [
+    {
+    "name": "Giovambattista Fazioli",
+    "email": "g.fazioli@wpxtre.me",
+    "homepage" : "http://undolog.com"
+    }    
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gfazioli/Amiga-Guru-Meditation"
+  },
+  "support": {
+    "email": "g.fazioli@wpxtre.me"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-0": {
+    "Amiga-Guru-Meditation": "src/"
+    }
+  },
+  "prefer-stable" : true
+}

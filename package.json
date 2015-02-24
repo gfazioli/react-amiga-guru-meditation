@@ -1,0 +1,25 @@
+{
+  "name": "amiga-guru-meditation",
+  "version": "1.0.0",
+  "description": "Javascript Class to display a Amiga Guru Meditation Tribute",
+  "main": "guru-meditation.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gfazioli/Amiga-Guru-Meditation.git"
+  },
+  "keywords": [
+    "Amiga",
+    "Guru",
+    "Meditation",
+    "Javascript"
+  ],
+  "author": "gfazioli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gfazioli/Amiga-Guru-Meditation/issues"
+  },
+  "homepage": "https://github.com/gfazioli/Amiga-Guru-Meditation"
+}
