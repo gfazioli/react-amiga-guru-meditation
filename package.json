@@ -2,7 +2,7 @@
   "name": "react-amiga-guru-meditation",
   "version": "1.0.0",
   "description": "React JS Class to display a Amiga Guru Meditation Tribute",
-  "main": "guru-meditation.js",
+  "main": "js/react-amiga-guru-meditation.js",
   "scripts": {
     "test": "none"
   },
