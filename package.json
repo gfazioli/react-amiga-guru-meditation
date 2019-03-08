@@ -57,9 +57,13 @@
   "scripts": {
     "postinstall": "tsc -p tsconfig.json",
     "dev": "docz dev",
-    "precommit": "tsc --noEmit --project ./config/tsconfig.json && ./node_modules/tslint/bin/tslint './src/**/*.ts{,x}'",
     "docz:dev": "docz dev",
     "docz:build": "docz build",
-    "build" : "yarn postinstall && docz build"
+    "build": "yarn postinstall && docz build"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsc --noEmit --project ./config/tsconfig.json && ./node_modules/tslint/bin/tslint './src/**/*.ts{,x}'"
+    }
   }
 }
