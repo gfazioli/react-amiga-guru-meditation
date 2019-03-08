@@ -20,10 +20,14 @@ function Button() {
 
 export function AmigaErrorBoundaryExample() {
 
+  const [debug, setDebug] = useState(false);
+
   return (
-    <AmigaErrorBoundary>
+    <AmigaErrorBoundary debug={debug}>
       <DocsExample>
         <h1>AmigaErrorBoundary Example</h1>
+
+        <button onClick={() => setDebug(true)}>Debug</button>
 
         <Button />
       </DocsExample>
