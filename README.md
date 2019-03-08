@@ -1,29 +1,59 @@
-Software Failure / Guru Meditation
-==================================
+# Overview
 
-[![Latest Stable Version](https://poser.pugx.org/gfazioli/react-amiga-guru-meditation/v/stable.svg)](https://packagist.org/packages/gfazioli/react-amiga-guru-meditation) [![Total Downloads](https://poser.pugx.org/gfazioli/react-amiga-guru-meditation/downloads.svg)](https://packagist.org/packages/gfazioli/react-amiga-guru-meditation) [![Latest Unstable Version](https://poser.pugx.org/gfazioli/react-amiga-guru-meditation/v/unstable.svg)](https://packagist.org/packages/gfazioli/react-amiga-guru-meditation) [![License](https://poser.pugx.org/gfazioli/react-amiga-guru-meditation/license.svg)](https://packagist.org/packages/gfazioli/react-amiga-guru-meditation)
+This component is designed to render a funny Error Boundary styled like the old Amiga Guru Meditation.
 
-React JS Class to display a Amiga Guru Meditation Tribute
+## New in v2.0
 
-![schermata 2014-02-09 alle 00 20 06](https://f.cloud.github.com/assets/432181/2118690/bbd3bb7c-9117-11e3-9aa6-89f8f0e2a7ba.png)
+* Use Typescript
+* Use React Hooks
+* New [Documentation and Intercative Playground](https://gfazioli.github.io/react-amiga-guru-meditation/)
 
-### Usage
+## Installation
 
-```js
+You can use either **npm**
+
+```bash
+npm i react-amiga-guru-meditation
+```
+
+or **yarn**
+
+```bash
+yarn add react-amiga-guru-meditation
+```
+
+## Basic Usage
+
+First of all, remember to import the component.
+
+```jsx
+import React from "react"
+
+import {AmigaErrorBoundary} from "react-amiga-guru-meditation"
+
+function Application() {
+
   return (
-      <div>
-        <AmigaGuruMeditation />
-      </div>
-    );
+    <AmigaErrorBoundary>
+      <h1>Protected code</h1>
+    </AmigaErrorBoundary>
+  );
+}
 ```
 
-#### Default Props
+## Documentation
 
-```js
+See the complete [documentation and intercative playground](https://gfazioli.github.io/react-react-amiga-guru-meditation/)
 
-title    : "Software Failure. Press left mouse button to continue.",
-subtitle : "Guru meditation",
-error    : '#00000025.65045330'
 
-```
+## Contributing
 
+Thanks for any your contribute 👏.
+
+## Bugs 🐛
+
+Use the GitHub issues.
+
+## License
+
+MIT Licensed. Copyright (c) Giovambattista Fazioli 2018.
