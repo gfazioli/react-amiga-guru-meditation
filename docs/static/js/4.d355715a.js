@@ -1,2 +1,2 @@
 (window.webpackJsonp=window.webpackJsonp||[]).push([[4],{"./.docz/app/imports.js":function(r,n,o){"use strict";o.r(n),o.d(n,"imports",function(){return a});var a={"srcdocs/components/AmigaErrorBaundary/amigaerrorboundary.mdx":function(){return Promise.all([o.e(0),o.e(3)]).then(o.bind(null,"./srcdocs/components/AmigaErrorBaundary/amigaerrorboundary.mdx"))}}}},0,[0,3]]);
-//# sourceMappingURL=4.70f92b78e5b914244737.js.map
+//# sourceMappingURL=4.8d396668ab648abc6d16.js.map
