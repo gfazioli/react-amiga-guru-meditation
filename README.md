@@ -2,6 +2,8 @@
 
 This component is designed to render a funny Error Boundary styled like the old Amiga Guru Meditation.
 
+![image](./image.png)
+
 ## New in v2.0
 
 * Use Typescript
