@@ -10,10 +10,46 @@ import {AmigaErrorBoundaryExample} from './AmigaErrorBoundaryExample'
 
 # AmigaErrorBoundary
 
+You may use the `AmigaErrorBoundary` as a ErrorBoundary
+
+## Basic usage
+
+```jsx
+<AmigaErrorBoundary>
+  ... your components
+</AmigaErrorBoundary>
+````
+
+Of course, you may use it to display any catchable error in your children components
+
+```jsx
+<AmigaErrorBoundary show={true} error={"Hello, I'm error"}>
+  ... your components
+</AmigaErrorBoundary>
+````
+
 <AmigaErrorBoundaryExample />
+
+## Props
+
+<PropsTable of={AmigaErrorBoundary} />
 
 ## Playground
 
 Click on the button `<>` on the right bottom of panel to edit your code.
+
+<Playground>
+  <AmigaErrorBoundary show={false} error={"Hello, I'm error"}>
+    <p>Settru the show prop</p>
+  </AmigaErrorBoundary>
+</Playground>
+
+You may also change the appearance
+
+<Playground>
+  <AmigaErrorBoundary show={false} error={"Hello, I'm error"} color="#f90" backgroundColor="#a00">
+    <p>Set true the show prop and change the color</p>
+  </AmigaErrorBoundary>
+</Playground>
 
 
