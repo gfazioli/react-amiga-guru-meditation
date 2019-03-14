@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{"./.docz/app/imports.js":function(r,n,o){"use strict";o.r(n),o.d(n,"imports",function(){return s});var s={"srcdocs/getstarted.mdx":function(){return o.e(4).then(o.bind(null,"./srcdocs/getstarted.mdx"))},"srcdocs/components/AmigaErrorBaundary/amigaerrorboundary.mdx":function(){return Promise.all([o.e(0),o.e(3)]).then(o.bind(null,"./srcdocs/components/AmigaErrorBaundary/amigaerrorboundary.mdx"))}}}},0,[0,3,4]]);
+//# sourceMappingURL=5.864a4faf78799f04fc0d.js.map
