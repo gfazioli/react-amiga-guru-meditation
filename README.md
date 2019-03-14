@@ -5,13 +5,14 @@
 ![issues](https://img.shields.io/github/issues/gfazioli/react-amiga-guru-meditation.svg)
 ![type](https://img.shields.io/npm/types/react-amiga-guru-meditation.svg)
 ![last-commit](https://img.shields.io/github/last-commit/gfazioli/react-amiga-guru-meditation.svg)
+![npm](https://img.shields.io/npm/dm/react-amiga-guru-meditation.svg)
 
 
 This component is designed to render a funny Error Boundary styled like the old Amiga Guru Meditation.
 
 ![image](./image.png)
 
-## New in v2.0
+## New in v2.0.x
 
 * Use Typescript
 * Use React Hooks
