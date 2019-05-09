@@ -57,7 +57,7 @@
     "postinstall": "tsc -p tsconfig.json",
     "dev": "docz dev",
     "docz:dev": "docz dev",
-    "docz:build": "docz build",
+    "docz:build": "docz build --base /react-amiga-guru-meditation",
     "build": "yarn postinstall && docz build"
   },
   "husky": {
