@@ -1,15 +1,11 @@
 {
-  "vendors.js": "/react-amiga-guru-meditation/static/js/vendors.8199b348.js",
-  "vendors.js.map": "/react-amiga-guru-meditation/static/js/vendors.4cdb96f305b230e55278.js.map",
-  "app.js": "/react-amiga-guru-meditation/static/js/app.560f0a99.js",
-  "app.js.map": "/react-amiga-guru-meditation/static/js/app.4cdb96f305b230e55278.js.map",
-  "runtime~app.js": "/react-amiga-guru-meditation/static/js/runtime~app.4cdb96f305b230e55278.js",
-  "runtime~app.js.map": "/react-amiga-guru-meditation/static/js/runtime~app.4cdb96f305b230e55278.js.map",
-  "srcdocs-components-amiga-error-baundary-amigaerrorboundary.js": "/react-amiga-guru-meditation/static/js/srcdocs-components-amiga-error-baundary-amigaerrorboundary.5f013f47.js",
-  "srcdocs-components-amiga-error-baundary-amigaerrorboundary.js.map": "/react-amiga-guru-meditation/static/js/srcdocs-components-amiga-error-baundary-amigaerrorboundary.4cdb96f305b230e55278.js.map",
-  "srcdocs-getstarted.js": "/react-amiga-guru-meditation/static/js/srcdocs-getstarted.72cae77c.js",
-  "srcdocs-getstarted.js.map": "/react-amiga-guru-meditation/static/js/srcdocs-getstarted.4cdb96f305b230e55278.js.map",
-  "static/js/5.eebcfe8f.js": "/react-amiga-guru-meditation/static/js/5.eebcfe8f.js",
-  "static/js/5.4cdb96f305b230e55278.js.map": "/react-amiga-guru-meditation/static/js/5.4cdb96f305b230e55278.js.map",
-  "index.html": "/react-amiga-guru-meditation/index.html"
+  "vendors.js": "/static/js/vendors.85641263.js",
+  "vendors.js.map": "/static/js/vendors.b8e87c99477385908b20.js.map",
+  "app.js": "/static/js/app.b8e87c99477385908b20.js",
+  "app.js.map": "/static/js/app.b8e87c99477385908b20.js.map",
+  "srcdocs-components-amiga-error-baundary-amigaerrorboundary.js": "/static/js/srcdocs-components-amiga-error-baundary-amigaerrorboundary.cd178e26.js",
+  "srcdocs-components-amiga-error-baundary-amigaerrorboundary.js.map": "/static/js/srcdocs-components-amiga-error-baundary-amigaerrorboundary.b8e87c99477385908b20.js.map",
+  "srcdocs-getstarted.js": "/static/js/srcdocs-getstarted.5e2894dc.js",
+  "srcdocs-getstarted.js.map": "/static/js/srcdocs-getstarted.b8e87c99477385908b20.js.map",
+  "index.html": "/index.html"
 }
