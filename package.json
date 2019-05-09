@@ -1,6 +1,6 @@
 {
   "name": "react-amiga-guru-meditation",
-  "version": "2.0.11",
+  "version": "2.0.13",
   "private": false,
   "description": "A React Error Boundary styled like the Amiga Guru Meditation",
   "main": "dist/index.js",
@@ -33,8 +33,8 @@
     "@types/node": "12.0.0",
     "@types/webpack": "4.4.31",
     "babel-loader": "^8.0.4",
-    "docz": "^1.2.0",
-    "docz-theme-default": "^1.2.0",
+    "docz": "^0.13.7",
+    "docz-theme-default": "^0.13.7",
     "husky": "^2.2.0",
     "prettier": "1.17.0",
     "ts-loader": "^6.0.0",
@@ -58,7 +58,7 @@
     "dev": "docz dev",
     "docz:dev": "docz dev",
     "docz:build": "docz build --base /react-amiga-guru-meditation",
-    "build": "yarn postinstall && docz build"
+    "build": "yarn postinstall && yarn docz:build"
   },
   "husky": {
     "hooks": {
