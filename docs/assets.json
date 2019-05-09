@@ -1,11 +1,15 @@
 {
-  "vendors.js": "/react-amiga-guru-meditation/static/js/vendors.804a4beb.js",
-  "vendors.js.map": "/react-amiga-guru-meditation/static/js/vendors.6575cc32066fd84dae9a.js.map",
-  "app.js": "/react-amiga-guru-meditation/static/js/app.6575cc32066fd84dae9a.js",
-  "app.js.map": "/react-amiga-guru-meditation/static/js/app.6575cc32066fd84dae9a.js.map",
-  "srcdocs-components-amiga-error-baundary-amigaerrorboundary.js": "/react-amiga-guru-meditation/static/js/srcdocs-components-amiga-error-baundary-amigaerrorboundary.cd178e26.js",
-  "srcdocs-components-amiga-error-baundary-amigaerrorboundary.js.map": "/react-amiga-guru-meditation/static/js/srcdocs-components-amiga-error-baundary-amigaerrorboundary.6575cc32066fd84dae9a.js.map",
-  "srcdocs-getstarted.js": "/react-amiga-guru-meditation/static/js/srcdocs-getstarted.5e2894dc.js",
-  "srcdocs-getstarted.js.map": "/react-amiga-guru-meditation/static/js/srcdocs-getstarted.6575cc32066fd84dae9a.js.map",
+  "vendors.js": "/react-amiga-guru-meditation/static/js/vendors.facb43b3.js",
+  "vendors.js.map": "/react-amiga-guru-meditation/static/js/vendors.0e2e8033d8f93a3b4e20.js.map",
+  "app.js": "/react-amiga-guru-meditation/static/js/app.a815fbe7.js",
+  "app.js.map": "/react-amiga-guru-meditation/static/js/app.0e2e8033d8f93a3b4e20.js.map",
+  "runtime~app.js": "/react-amiga-guru-meditation/static/js/runtime~app.0e2e8033d8f93a3b4e20.js",
+  "runtime~app.js.map": "/react-amiga-guru-meditation/static/js/runtime~app.0e2e8033d8f93a3b4e20.js.map",
+  "srcdocs-components-amiga-error-baundary-amigaerrorboundary.js": "/react-amiga-guru-meditation/static/js/srcdocs-components-amiga-error-baundary-amigaerrorboundary.535742db.js",
+  "srcdocs-components-amiga-error-baundary-amigaerrorboundary.js.map": "/react-amiga-guru-meditation/static/js/srcdocs-components-amiga-error-baundary-amigaerrorboundary.0e2e8033d8f93a3b4e20.js.map",
+  "srcdocs-getstarted.js": "/react-amiga-guru-meditation/static/js/srcdocs-getstarted.72cae77c.js",
+  "srcdocs-getstarted.js.map": "/react-amiga-guru-meditation/static/js/srcdocs-getstarted.0e2e8033d8f93a3b4e20.js.map",
+  "static/js/5.eebcfe8f.js": "/react-amiga-guru-meditation/static/js/5.eebcfe8f.js",
+  "static/js/5.0e2e8033d8f93a3b4e20.js.map": "/react-amiga-guru-meditation/static/js/5.0e2e8033d8f93a3b4e20.js.map",
   "index.html": "/react-amiga-guru-meditation/index.html"
 }
