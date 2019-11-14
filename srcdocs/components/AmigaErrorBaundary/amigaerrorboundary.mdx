@@ -4,7 +4,7 @@ route: /components/amigaerrorboundary
 menu: Components
 ---
 
-import { Playground, PropsTable } from 'docz'
+import { Playground, Props } from 'docz'
 import AmigaErrorBoundary from '../../../src/components/AmigaErrorBoundary'
 import {AmigaErrorBoundaryExample} from './AmigaErrorBoundaryExample'
 
@@ -20,6 +20,12 @@ You may use the `AmigaErrorBoundary` as a ErrorBoundary
 </AmigaErrorBoundary>
 ````
 
+<Playground>
+  <AmigaErrorBoundary show={false} error={"Hello, I'm error"}>
+    <p>Set true the show prop</p>
+  </AmigaErrorBoundary>
+</Playground>
+
 Of course, you may use it to display any catchable error in your children components
 
 ```jsx
@@ -28,22 +34,6 @@ Of course, you may use it to display any catchable error in your children compon
 </AmigaErrorBoundary>
 ````
 
-<AmigaErrorBoundaryExample />
-
-## Props
-
-<PropsTable of={AmigaErrorBoundary} />
-
-## Playground
-
-Click on the button `<>` on the right bottom of panel to edit your code.
-
-<Playground>
-  <AmigaErrorBoundary show={false} error={"Hello, I'm error"}>
-    <p>Set true the show prop</p>
-  </AmigaErrorBoundary>
-</Playground>
-
 You may also change the appearance
 
 <Playground>
@@ -51,5 +41,15 @@ You may also change the appearance
     <p>Set true the show prop and change the color</p>
   </AmigaErrorBoundary>
 </Playground>
+
+
+## Example
+
+<AmigaErrorBoundaryExample />
+
+## Props
+
+<Props of={AmigaErrorBoundary} />
+
 
 

@@ -1,14 +1,8 @@
-// doczrc.js
-
 export default {
-  description: "React Amiga Guru Meditation",
-  dest: "./docs",
-  themeConfig: {
-    colors: {
-      primary: "tomato",
-    },
-  },
-  codeSandbox: false,
+  typescript: true,
   title: "Amiga Guru Meditation",
-  typescript: true
+  description: "React Amiga Guru Meditation",
+  base: "/react-amiga-guru-meditation",
+  ignore: ["README.md", 'readme.md', 'changelog.md', 'code_of_conduct.md', 'contributing.md', 'license.md'],
+  dest: '/docs',
 }
