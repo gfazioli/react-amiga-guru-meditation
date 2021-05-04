@@ -1,6 +1,6 @@
 {
   "name": "react-amiga-guru-meditation",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "private": false,
   "description": "A React Error Boundary styled like the Amiga Guru Meditation",
   "main": "dist/index.js",
