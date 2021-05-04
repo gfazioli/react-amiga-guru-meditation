@@ -3,6 +3,9 @@
     "plugins": [
       {
         "name": "typescript-styled-plugin"
+      },
+      {
+        "name": "babel-plugin-styled-components"
       }
     ],
     "outDir": "dist",
