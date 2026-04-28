@@ -13,7 +13,7 @@
 [![license](https://img.shields.io/npm/l/react-amiga-guru-meditation?style=flat-square&color=ef4444)](./LICENSE)
 
 [**Live playground →**](https://gfazioli.github.io/react-amiga-guru-meditation/) ・
-[**v3 → v4 guide**](./UPGRADE.md) ・
+[**v3 → v4 guide →**](https://gfazioli.github.io/react-amiga-guru-meditation/upgrade/) ・
 [**Changelog**](./CHANGELOG.md)
 
 </div>
@@ -198,7 +198,7 @@ The exported alias `GuruMeditation` is the same component under a shorter, more 
 
 ## Migrating from v3
 
-`backgroundColor` / `color` props are gone (use CSS variables), the rendering is now inline by default (pass `portal` for the v3 takeover behavior), and a full `react-error-boundary`-style API has been added. See [UPGRADE.md](./UPGRADE.md) for a step-by-step migration guide.
+`backgroundColor` / `color` props are gone (use CSS variables), the rendering is now inline by default (pass `portal` for the v3 takeover behavior), and a full `react-error-boundary`-style API has been added. See the [v3 → v4 guide](https://gfazioli.github.io/react-amiga-guru-meditation/upgrade/) for a step-by-step migration walkthrough.
 
 ## License
 
