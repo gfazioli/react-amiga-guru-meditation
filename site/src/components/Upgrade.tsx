@@ -88,17 +88,7 @@ export function Upgrade() {
           <h2>
             Coming from <span className="gradient-text">v3</span>?
           </h2>
-          <p>
-            Four small changes to land on v4. Requires React 18+. The full guide is on{" "}
-            <a
-              href="https://github.com/gfazioli/react-amiga-guru-meditation/blob/main/UPGRADE.md"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              GitHub
-            </a>
-            .
-          </p>
+          <p>Four small changes to land on v4. Requires React 18+.</p>
         </div>
 
         <ol className="upgrade-list">
