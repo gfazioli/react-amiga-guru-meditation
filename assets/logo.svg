@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120" width="240" height="120">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="12" y="20" width="216" height="80" rx="6" fill="#000000" stroke="#ff2222" stroke-width="6" filter="url(#glow)"/>
+  <text x="120" y="60" text-anchor="middle" fill="#ff2222" font-family="Times, 'Times New Roman', serif" font-weight="500" font-size="14">
+    Software Failure. Press left mouse
+  </text>
+  <text x="120" y="84" text-anchor="middle" fill="#ff2222" font-family="ui-monospace, Menlo, Consolas, monospace" font-weight="700" font-size="20" letter-spacing="2">
+    GURU MEDITATION
+  </text>
+</svg>

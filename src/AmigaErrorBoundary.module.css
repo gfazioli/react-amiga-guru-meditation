@@ -1,0 +1,122 @@
+/* CSS variables (defaults inlined inside var() so any wrapping ancestor that
+ * sets --ragm-* gets inherited — declaring them directly on .root would block
+ * theming via CSS-only. */
+
+.root {
+  position: relative;
+  z-index: var(--ragm-z-index, 9999);
+  box-sizing: border-box;
+  border: var(--ragm-border-width, 6px) var(--ragm-border-style, solid) var(--ragm-fg, #ff2222);
+  background-color: var(--ragm-bg, #000000);
+  color: var(--ragm-fg, #ff2222);
+  padding: var(--ragm-padding, 24px);
+  text-align: center;
+  font-family: var(--ragm-font-family, "Times New Roman", Times, serif);
+  font-size: var(--ragm-font-size, 18px);
+  font-weight: var(--ragm-font-weight, 400);
+  line-height: var(--ragm-line-height, 1.4);
+
+  animation-name: ragm-blink;
+  animation-duration: var(--ragm-blink-duration, 1s);
+  animation-timing-function: step-end;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.root * {
+  box-sizing: border-box;
+}
+
+.noBlink {
+  animation: none;
+}
+
+.portal {
+  position: fixed;
+  inset: 0;
+  z-index: var(--ragm-z-index, 9999);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: var(--ragm-portal-padding, 0);
+  background-color: var(--ragm-bg, #000000);
+  color: var(--ragm-fg, #ff2222);
+  border: var(--ragm-border-width, 6px) var(--ragm-border-style, solid) var(--ragm-fg, #ff2222);
+  font-family: var(--ragm-font-family, "Times New Roman", Times, serif);
+  font-size: var(--ragm-font-size, 18px);
+  font-weight: var(--ragm-font-weight, 400);
+  line-height: var(--ragm-line-height, 1.4);
+  text-align: center;
+
+  animation-name: ragm-blink;
+  animation-duration: var(--ragm-blink-duration, 1s);
+  animation-timing-function: step-end;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.portal .root {
+  border: 0;
+  background: transparent;
+  animation: none;
+  padding: var(--ragm-padding, 24px);
+  max-width: var(--ragm-max-width, 760px);
+  width: 100%;
+}
+
+.title {
+  margin: 0 0 12px;
+}
+
+.message {
+  margin: 0 0 12px;
+}
+
+.code {
+  font-family: var(--ragm-mono-family, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace);
+  word-break: break-word;
+}
+
+.details {
+  text-align: left;
+  margin: 16px auto 0;
+  padding: 12px;
+  border: 1px dashed var(--ragm-fg, #ff2222);
+  font-size: 0.85em;
+  max-width: var(--ragm-details-max-width, 100%);
+}
+
+.details summary {
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 8px;
+  user-select: none;
+}
+
+.details pre {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: var(--ragm-mono-family, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace);
+  font-size: 12px;
+}
+
+@keyframes ragm-blink {
+  0% {
+    border-color: var(--ragm-fg, #ff2222);
+  }
+  50% {
+    border-color: var(--ragm-bg, #000000);
+  }
+  100% {
+    border-color: var(--ragm-fg, #ff2222);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .root,
+  .portal {
+    animation: none;
+  }
+}
