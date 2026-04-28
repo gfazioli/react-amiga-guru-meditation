@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0a0a0b"/>
+      <stop offset="1" stop-color="#18181b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="38%" r="55%">
+      <stop offset="0" stop-color="#ff2222" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ff2222" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <ellipse cx="600" cy="240" rx="520" ry="300" fill="url(#glow)"/>
+
+  <g transform="translate(150 130)">
+    <rect x="0" y="0" width="900" height="220" rx="6" fill="#000000" stroke="#ff2222" stroke-width="10" filter="url(#blur)" opacity="0.6"/>
+    <rect x="0" y="0" width="900" height="220" rx="6" fill="#000000" stroke="#ff2222" stroke-width="10"/>
+    <text
+      x="450"
+      y="100"
+      text-anchor="middle"
+      font-family="Times, 'Times New Roman', serif"
+      font-size="34"
+      font-weight="500"
+      fill="#ff2222"
+      letter-spacing="0.5"
+    >Software Failure. Press left mouse button to continue.</text>
+    <text
+      x="450"
+      y="160"
+      text-anchor="middle"
+      font-family="Times, 'Times New Roman', serif"
+      font-size="34"
+      font-weight="500"
+      fill="#ff2222"
+    >Guru Meditation: #00000003.48454C50</text>
+  </g>
+
+  <text
+    x="600"
+    y="450"
+    text-anchor="middle"
+    font-family="Inter, -apple-system, sans-serif"
+    font-size="64"
+    font-weight="800"
+    fill="white"
+    letter-spacing="-2"
+  >react-amiga-guru-meditation</text>
+
+  <text
+    x="600"
+    y="510"
+    text-anchor="middle"
+    font-family="Inter, -apple-system, sans-serif"
+    font-size="26"
+    font-weight="500"
+    fill="#a1a1aa"
+    letter-spacing="-0.5"
+  >React Error Boundary · ARIA-compliant · Themeable via CSS variables · Zero deps</text>
+
+  <text
+    x="600"
+    y="575"
+    text-anchor="middle"
+    font-family="JetBrains Mono, ui-monospace, monospace"
+    font-size="22"
+    font-weight="600"
+    fill="#fca5a5"
+    letter-spacing="2"
+  >v4 · React 18+</text>
+</svg>
