@@ -37,4 +37,7 @@ coverage/
 # IDE
 .vscode/
 .idea/
+
+# Claude Code runtime
+.claude/
 .DS_Store
