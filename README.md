@@ -200,6 +200,13 @@ The exported alias `GuruMeditation` is the same component under a shorter, more 
 
 `backgroundColor` / `color` props are gone (use CSS variables), the rendering is now inline by default (pass `portal` for the v3 takeover behavior), and a full `react-error-boundary`-style API has been added. See the [v3 → v4 guide](https://gfazioli.github.io/react-amiga-guru-meditation/upgrade/) for a step-by-step migration walkthrough.
 
+## Other Undolog components
+
+Small, accessible React components — same philosophy, same toolchain, zero runtime dependencies:
+
+- **[react-toggle-component](https://gfazioli.github.io/react-toggle/)** — an accessible toggle/switch with CSS-variable theming. ([npm](https://www.npmjs.com/package/react-toggle-component) · [GitHub](https://github.com/gfazioli/react-toggle))
+- **[@gfazioli/react-flip](https://gfazioli.github.io/react-flip/)** — wrap any two faces and animate a 3D rotation between them. ([npm](https://www.npmjs.com/package/@gfazioli/react-flip) · [GitHub](https://github.com/gfazioli/react-flip))
+
 ## License
 
 MIT — © Giovambattista Fazioli
