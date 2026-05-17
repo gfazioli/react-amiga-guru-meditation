@@ -7,6 +7,7 @@ import {
   type FontStyleKey,
   type ThemeConfig,
 } from "../hooks/useThemeConfig";
+import { CodeBlock } from "./CodeBlock";
 import { CopyButton } from "./CopyButton";
 import "./Builder.css";
 
@@ -281,9 +282,11 @@ function BuilderPreview({ config }: { config: ThemeConfig }) {
             <span>Copy</span>
           </CopyButton>
         </div>
-        <pre className="builder-code-block">
-          <code>{tab === "jsx" ? jsxSnippet(config) : cssSnippet(config)}</code>
-        </pre>
+        <CodeBlock
+          code={tab === "jsx" ? jsxSnippet(config) : cssSnippet(config)}
+          lang={tab === "jsx" ? "tsx" : "css"}
+          className="builder-code-block"
+        />
       </div>
     </div>
   );
