@@ -1,7 +1,7 @@
 {
   "name": "react-amiga-guru-meditation",
   "version": "4.0.0",
-  "description": "A React Error Boundary styled like the Amiga Guru Meditation — accessible, themeable, zero runtime dependencies, ARIA-compliant, CSS variables theming.",
+  "description": "A React Error Boundary styled like the Amiga Guru Meditation \u2014 accessible, themeable, zero runtime dependencies, ARIA-compliant, CSS variables theming.",
   "license": "MIT",
   "author": "Giovambattista Fazioli",
   "homepage": "https://gfazioli.github.io/react-amiga-guru-meditation/",
@@ -97,5 +97,10 @@
     "typescript-eslint": "^8.18.2",
     "vite": "^5.4.11",
     "vitest": "^2.1.8"
+  },
+  "pnpm": {
+    "overrides": {
+      "esbuild": "^0.25.0"
+    }
   }
 }
