@@ -27,6 +27,21 @@ export function Hero() {
           <span className="eyebrow-dot" /> v4 · fully rewritten for React 18+
         </span>
 
+        <div className="hero-badge">
+          <a
+            href="https://www.npmjs.com/package/react-amiga-guru-meditation"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="Monthly downloads on npm"
+          >
+            <img
+              src="https://img.shields.io/npm/dm/react-amiga-guru-meditation?style=flat-square&color=ef4444"
+              alt="npm downloads per month"
+              height={20}
+            />
+          </a>
+        </div>
+
         <h1>
           The Error Boundary that{" "}
           <span className="gradient-text">panics in style</span>.

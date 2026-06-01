@@ -30,7 +30,7 @@ export default tseslint.config(
       "jsx-a11y": jsxA11y,
     },
     settings: {
-      react: { version: "detect" },
+      react: { version: "19" },
     },
     rules: {
       ...react.configs.recommended.rules,
@@ -40,6 +40,7 @@ export default tseslint.config(
       "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_", varsIgnorePattern: "^_" }],
       "react/prop-types": "off",
       "react/no-unescaped-entities": "off",
+      "react-hooks/set-state-in-effect": "warn",
     },
   },
 );
