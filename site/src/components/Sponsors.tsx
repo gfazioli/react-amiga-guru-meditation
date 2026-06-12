@@ -2,6 +2,7 @@ import { sponsors } from "../data/sponsors";
 import "./Sponsors.css";
 
 const SPONSOR_URL = "https://github.com/sponsors/gfazioli";
+const DONATE_URL = "https://donate.stripe.com/fZu4gy4Tn3b1dgudGx0co00";
 
 export function Sponsors() {
   return (
@@ -51,6 +52,12 @@ export function Sponsors() {
               ❤
             </span>
             Become a sponsor
+          </a>
+          <a className="coffee-cta-btn" href={DONATE_URL} target="_blank" rel="noreferrer noopener">
+            <span className="coffee-cta-icon" aria-hidden="true">
+              ☕
+            </span>
+            Buy me a coffee
           </a>
         </div>
       </div>

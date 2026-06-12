@@ -88,6 +88,8 @@
 
 .sponsors-cta {
   display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
   justify-content: center;
 }
 
@@ -121,6 +123,40 @@
 }
 
 .sponsors-cta-btn .sponsors-cta-heart {
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* Warm "Buy me a coffee" pill, mirroring the sponsor CTA. */
+.coffee-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 13px 26px;
+  border-radius: 999px;
+  border: none;
+  background: linear-gradient(45deg, #f08c00, #e8590c);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  box-shadow: 0 8px 24px -8px rgba(232, 89, 12, 0.6);
+  transition: transform 120ms ease, box-shadow 250ms ease, filter 200ms ease;
+}
+
+.coffee-cta-btn:hover {
+  color: #ffffff;
+  transform: translateY(-1px);
+  filter: brightness(1.05);
+  box-shadow: 0 12px 32px -8px rgba(232, 89, 12, 0.75);
+}
+
+.coffee-cta-btn:active {
+  transform: translateY(0);
+}
+
+.coffee-cta-btn .coffee-cta-icon {
   font-size: 16px;
   line-height: 1;
 }
