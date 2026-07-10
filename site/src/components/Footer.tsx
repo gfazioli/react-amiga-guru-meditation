@@ -1,4 +1,5 @@
 import { Logo } from "./Logo";
+import { ShareButtons } from "./ShareButtons";
 import "./Footer.css";
 
 export function Footer() {
@@ -10,11 +11,7 @@ export function Footer() {
           <span>react-amiga-guru-meditation</span>
         </div>
         <nav className="footer-links" aria-label="Footer">
-          <a
-            href="https://www.npmjs.com/package/react-amiga-guru-meditation"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
+          <a href="https://www.npmjs.com/package/react-amiga-guru-meditation" target="_blank" rel="noreferrer noopener">
             npm
           </a>
           <a href="https://github.com/gfazioli/react-amiga-guru-meditation" target="_blank" rel="noreferrer noopener">
@@ -30,6 +27,7 @@ export function Footer() {
             MIT License
           </a>
         </nav>
+        <ShareButtons />
         <p className="footer-credit">
           Built with care by{" "}
           <a href="https://gfazioli.github.io" target="_blank" rel="noreferrer noopener">
